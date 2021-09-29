@@ -18,8 +18,8 @@
 1. 引入依赖：
 ```xml
 <parent>
-    <artifactId>apollo-auto-refresh-spring-boot-starter</artifactId>
     <groupId>cn.yzw</groupId>
+    <artifactId>apollo-auto-refresh-spring-boot-starter</artifactId>
     <version>最新版本</version>
 </parent>
 ```
