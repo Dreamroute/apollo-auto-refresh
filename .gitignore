@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+/.flattened-pom.xml
+/apollo-auto-refresh-sample/.flattened-pom.xml
+/apollo-auto-refresh-spring-boot-starter/.flattened-pom.xml
