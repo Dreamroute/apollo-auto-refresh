@@ -1,4 +1,4 @@
-package cn.yzw.apollo.auto.refresh.spring.boot.starter;
+package com.github.dreamroute.apollo.auto.refresh.spring.boot.starter;
 
 import org.springframework.context.annotation.Import;
 

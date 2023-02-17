@@ -14,14 +14,14 @@
         <version>2.3.7.RELEASE</version>
     </parent>
 
-    <groupId>cn.yzw</groupId>
+    <groupId>com.github.dreamroute</groupId>
     <artifactId>apollo-auto-refresh</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
 
     <properties>
         <!-- 版本信息 -->
-        <revision>1.1.2-RELEASE</revision>
+        <revision>1.1.3-RELEASE</revision>
 
         <!-- 默认仓库地址 -->
         <repository.url>https://maven.aliyun.com/repository/public</repository.url>
@@ -116,6 +116,17 @@
                 <version>${hutool-all.version}</version>
             </dependency>
             <!-- 基础依赖end -->
+
+            <dependency>
+                <groupId>com.ctrip.framework.apollo</groupId>
+                <artifactId>apollo-client</artifactId>
+                <version>${apollo-client.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-context</artifactId>
+                <version>${spring-cloud-context.version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>

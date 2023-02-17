@@ -1,4 +1,4 @@
-package cn.yzw.apollo.auto.refresh.spring.boot.starter;
+package com.github.dreamroute.apollo.auto.refresh.spring.boot.starter;
 
 import com.ctrip.framework.apollo.Config;
 import com.ctrip.framework.apollo.ConfigChangeListener;
@@ -34,7 +34,7 @@ public class ApolloAutoRefreshConfig {
         Map<String, Object> beansWithConfig = applicationContext.getBeansWithAnnotation(EnableApolloConfig.class);
 
         Set<String> namespaces = newHashSet();
-        parseNamespaces(beansWithAutoRefresh, EnableApolloAutoRefresh.class ,namespaces);
+        parseNamespaces(beansWithAutoRefresh, EnableApolloAutoRefresh.class, namespaces);
         parseNamespaces(beansWithConfig, EnableApolloConfig.class, namespaces);
 
         ConfigChangeListener listener = changeEvent -> {
@@ -51,6 +51,7 @@ public class ApolloAutoRefreshConfig {
         }
 
     }
+
     private void parseNamespaces(Map<String, Object> config, Class<? extends Annotation> type, Set<String> namespaces) {
         if (!config.isEmpty()) {
             config.values().forEach(obj -> {

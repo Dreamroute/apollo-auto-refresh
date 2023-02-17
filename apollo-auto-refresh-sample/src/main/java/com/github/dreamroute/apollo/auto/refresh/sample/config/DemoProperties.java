@@ -1,4 +1,4 @@
-package cn.yzw.apollo.auto.refresh.sample.config;
+package com.github.dreamroute.apollo.auto.refresh.sample.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

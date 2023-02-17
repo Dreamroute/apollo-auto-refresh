@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
+        <groupId>com.github.dreamroute</groupId>
         <artifactId>apollo-auto-refresh</artifactId>
-        <groupId>cn.yzw</groupId>
         <version>${revision}</version>
     </parent>
 
@@ -13,7 +13,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>cn.yzw</groupId>
+            <groupId>com.github.dreamroute</groupId>
             <artifactId>apollo-auto-refresh-spring-boot-starter</artifactId>
             <version>${revision}</version>
         </dependency>
